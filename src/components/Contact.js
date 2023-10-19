@@ -1,3 +1,5 @@
+import { contacts } from '../data';
+
 const Contact = () => {
   return (
     <div>
@@ -7,42 +9,20 @@ const Contact = () => {
         <div className="section-center clearfix">
           {/* <!-- contact info --> */}
           <article className="contact-info">
-            {/* <!-- contact item --> */}
-            <div className="contact-item">
-              <h4 className="contact-title">
-                <span className="contact-icon">
-                  <i className="fas fa-location-arrow"></i>
-                </span>
-                address
-              </h4>
-              <h4 className="contact-text">
-                123 North Pole <br />
-                EarthOne, 00001
-              </h4>
-            </div>
-            {/* <!-- contact item end --> */}
-            {/* <!-- contact item --> */}
-            <div className="contact-item">
-              <h4 className="contact-title">
-                <span className="contact-icon">
-                  <i className="fas fa-envelope"></i>
-                </span>
-                email
-              </h4>
-              <h4 className="contact-text">email@email.com</h4>
-            </div>
-            {/* <!-- contact item end --> */}
-            {/* <!-- contact item --> */}
-            <div className="contact-item">
-              <h4 className="contact-title">
-                <span className="contact-icon">
-                  <i className="fas fa-phone"></i>
-                </span>
-                telephone
-              </h4>
-              <h4 className="contact-text">+123456789</h4>
-            </div>
-            {/* <!-- contact item end --> */}
+            {contacts.map((contact) => {
+              const { id, icon, type, text } = contact;
+              return (
+                <div className="contact-item" key={id}>
+                  <h4 className="contact-title">
+                    <span className="contact-icon">
+                      <i className={icon}></i>
+                    </span>
+                    {type}
+                  </h4>
+                  <h4 className="contact-text">{text}</h4>
+                </div>
+              );
+            })}
           </article>
           {/* <!-- contact form --> */}
           <article className="contact-form">

@@ -103,3 +103,24 @@ export const services = [
     text: ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt necessitatibus architecto ullam recusandae distinctio reprenderit ',
   },
 ];
+
+export const contacts = [
+  {
+    id: 1,
+    icon: 'fas fa-location-arrow',
+    type: 'address',
+    text: '123 North Pole EarthOne, 00001',
+  },
+  {
+    id: 2,
+    icon: 'fas fa-envelope',
+    type: 'email',
+    text: 'email@email.com',
+  },
+  {
+    id: 3,
+    icon: 'fas fa-phone',
+    type: 'telephone',
+    text: '+123456789',
+  },
+];
