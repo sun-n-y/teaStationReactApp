@@ -74,3 +74,32 @@ export const products = [
     price: 9.99,
   },
 ];
+
+export const services = [
+  {
+    id: 1,
+    image: productImg1,
+    title: 'custom recipe',
+    icon: 'fas fa-mortar-pestle fa-fw',
+    href: 'products.html',
+    text: ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt necessitatibus architecto ullam recusandae distinctio reprehenderit.',
+  },
+
+  {
+    id: 2,
+    image: productImg2,
+    title: 'custom recipe',
+    icon: 'fas fa-home fa-fw',
+    href: 'products.html',
+    text: ' Lorem ipsum dolor, sit amet consectetur adipisicing elit.Incidunt necessitatibus architecto ullam recusandae distinctio reprehenderit.',
+  },
+
+  {
+    id: 3,
+    image: productImg3,
+    title: 'custom recipe',
+    icon: 'fas fa-mug-hot fa-fw',
+    href: 'products.html',
+    text: ' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt necessitatibus architecto ullam recusandae distinctio reprenderit ',
+  },
+];
