@@ -1,3 +1,5 @@
+import { pageLinks } from '../data';
+
 const Navbar = () => {
   return (
     <>
@@ -14,26 +16,16 @@ const Navbar = () => {
           </span>
         </div>
         <ul className="nav-items">
-          <li>
-            <a href="index.html" className="nav-link">
-              home
-            </a>
-          </li>
-          <li>
-            <a href="skills.html" className="nav-link">
-              skills
-            </a>
-          </li>
-          <li>
-            <a href="about.html" className="nav-link">
-              about
-            </a>
-          </li>
-          <li>
-            <a href="products.html" className="nav-link">
-              product
-            </a>
-          </li>
+          {pageLinks.map((link) => {
+            const { id, href, text } = link;
+            return (
+              <li key={id}>
+                <a href={href} className="nav-link">
+                  {text}
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </>
