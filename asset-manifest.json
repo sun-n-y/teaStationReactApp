@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/teaStationReactApp/static/css/main.78abcacc.css",
+    "main.js": "/teaStationReactApp/static/js/main.4b6bc745.js",
+    "static/media/main-bcg.jpeg": "/teaStationReactApp/static/media/main-bcg.e35e466e9a71cd5a8605.jpeg",
+    "static/media/product-2.jpeg": "/teaStationReactApp/static/media/product-2.75997759f5291ffa293b.jpeg",
+    "static/media/about-bcg.jpeg": "/teaStationReactApp/static/media/about-bcg.3e4664c6c29b0ae018e9.jpeg",
+    "static/media/product-3.jpeg": "/teaStationReactApp/static/media/product-3.ae455dd1b08b96cee835.jpeg",
+    "static/media/product-1.jpeg": "/teaStationReactApp/static/media/product-1.f4b781b99b76915244c2.jpeg",
+    "index.html": "/teaStationReactApp/index.html",
+    "main.78abcacc.css.map": "/teaStationReactApp/static/css/main.78abcacc.css.map",
+    "main.4b6bc745.js.map": "/teaStationReactApp/static/js/main.4b6bc745.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78abcacc.css",
+    "static/js/main.4b6bc745.js"
+  ]
+}
