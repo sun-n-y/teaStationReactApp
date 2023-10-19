@@ -1,3 +1,5 @@
+import { products } from '../data';
+
 const Products = () => {
   return (
     <div>
@@ -24,39 +26,20 @@ const Products = () => {
           </article>
           {/* <!-- product inventory --> */}
           <article className="product-inventory clearfix">
-            {/* <!-- single product --> */}
-            <div className="product">
-              <img
-                src="./images/product-1.jpeg"
-                alt="single product"
-                className="product-img"
-              />
-              <h4 className="product-title">ginger peach tea</h4>
-              <h4 className="product-price">$6.99</h4>
-            </div>
-            {/* <!-- single product end --> */}
-            {/* <!-- single product --> */}
-            <div className="product">
-              <img
-                src="./images/product-2.jpeg"
-                alt="single product"
-                className="product-img"
-              />
-              <h4 className="product-title">white tea</h4>
-              <h4 className="product-price">$6.99</h4>
-            </div>
-            {/* <!-- single product end --> */}
-            {/* <!-- single product --> */}
-            <div className="product">
-              <img
-                src="./images/product-3.jpeg"
-                alt="single product"
-                className="product-img"
-              />
-              <h4 className="product-title">fruit sangria</h4>
-              <h4 className="product-price">$6.99</h4>
-            </div>
-            {/* <!-- single product end --> */}
+            {products.map((product) => {
+              const { id, image, title, price } = product;
+              return (
+                <div className="product" key={id}>
+                  <img
+                    src={image}
+                    alt="single product"
+                    className="product-img"
+                  />
+                  <h4 className="product-title">{title}</h4>
+                  <h4 className="product-price">${price}</h4>
+                </div>
+              );
+            })}
           </article>
         </div>
       </section>

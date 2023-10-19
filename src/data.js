@@ -1,3 +1,7 @@
+import productImg1 from './images/product-1.jpeg';
+import productImg2 from './images/product-2.jpeg';
+import productImg3 from './images/product-3.jpeg';
+
 export const pageLinks = [
   {
     id: 1,
@@ -45,5 +49,28 @@ export const skillsCards = [
     title: 'family recipe',
     text: '  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, accusantium.',
     icon: 'fas fa-mortar-pestle',
+  },
+];
+
+export const products = [
+  {
+    id: 1,
+    image: productImg1,
+    title: 'ginger peach tea',
+    price: 6.99,
+  },
+
+  {
+    id: 2,
+    image: productImg2,
+    title: 'white tea',
+    price: 1.99,
+  },
+
+  {
+    id: 3,
+    image: productImg3,
+    title: 'fruit sangria',
+    price: 9.99,
   },
 ];
