@@ -3,99 +3,99 @@ function App() {
     <>
       {/* <!-- nav --> */}
       {/* <!-- nav button --> */}
-      <span class="nav-btn">
-        <i class="fas fa-bars showNav" id="nav-btn"></i>
+      <span className="nav-btn">
+        <i className="fas fa-bars showNav" id="nav-btn"></i>
       </span>
       {/* <!-- nav bar --> */}
-      <nav class="navbar" id="navbar">
-        <div class="navbar-header">
-          <span class="nav-close" id="nav-close">
-            <i class="fas fa-times"></i>
+      <nav className="navbar" id="navbar">
+        <div className="navbar-header">
+          <span className="nav-close" id="nav-close">
+            <i className="fas fa-times"></i>
           </span>
         </div>
-        <ul class="nav-items">
+        <ul className="nav-items">
           <li>
-            <a href="index.html" class="nav-link">
+            <a href="index.html" className="nav-link">
               home
             </a>
           </li>
           <li>
-            <a href="skills.html" class="nav-link">
+            <a href="skills.html" className="nav-link">
               skills
             </a>
           </li>
           <li>
-            <a href="about.html" class="nav-link">
+            <a href="about.html" className="nav-link">
               about
             </a>
           </li>
           <li>
-            <a href="products.html" class="nav-link">
+            <a href="products.html" className="nav-link">
               product
             </a>
           </li>
         </ul>
       </nav>
       {/* <!-- header --> */}
-      <header class="header">
-        <div class="banner">
+      <header className="header">
+        <div className="banner">
           <h2>Over one hundred flavors of</h2>
           <h1>
             specially <br />
             crafted tea
           </h1>
-          <a href="#services" class="btn banner-btn">
+          <a href="#services" className="btn banner-btn">
             explore
           </a>
         </div>
       </header>
       {/* <!-- header end --> */}
-      <div class="content-divider"></div>
+      <div className="content-divider"></div>
       {/* <!-- skills section --> */}
-      <section class="skills clearfix">
+      <section className="skills clearfix">
         {/* <!-- single skill --> */}
-        <article class="skill">
-          <span class="skill-icon">
-            <i class="fas fa-mug-hot"></i>
+        <article className="skill">
+          <span className="skill-icon">
+            <i className="fas fa-mug-hot"></i>
           </span>
-          <h4 class="skill-title">made in USA</h4>
-          <p class="skill-text">
+          <h4 className="skill-title">made in USA</h4>
+          <p className="skill-text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Repellendus, accusantium.
           </p>
         </article>
         {/* <!-- single skill end --> */}
         {/* <!-- single skill --> */}
-        <article class="skill">
-          <span class="skill-icon">
-            <i class="fas fa-glass-cheers"></i>
+        <article className="skill">
+          <span className="skill-icon">
+            <i className="fas fa-glass-cheers"></i>
           </span>
-          <h4 class="skill-title">relaxation</h4>
-          <p class="skill-text">
+          <h4 className="skill-title">relaxation</h4>
+          <p className="skill-text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Repellendus, accusantium.
           </p>
         </article>
         {/* <!-- single skill end --> */}
         {/* <!-- single skill --> */}
-        <article class="skill">
-          <span class="skill-icon">
-            <i class="fas fa-bomb"></i>
+        <article className="skill">
+          <span className="skill-icon">
+            <i className="fas fa-bomb"></i>
           </span>
-          <h4 class="skill-title">energy</h4>
-          <p class="skill-text">
+          <h4 className="skill-title">energy</h4>
+          <p className="skill-text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Repellendus, accusantium.
           </p>
         </article>
         {/* <!-- single skill end --> */}
         {/* <!-- single skill --> */}
-        <article class="skill">
-          <span class="skill-icon">
-            <i class="fas fa-mortar-pestle"></i>
+        <article className="skill">
+          <span className="skill-icon">
+            <i className="fas fa-mortar-pestle"></i>
           </span>
-          <h4 class="skill-title">family recipe</h4>
-          <p class="skill-text">
+          <h4 className="skill-title">family recipe</h4>
+          <p className="skill-text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Repellendus, accusantium.
           </p>
@@ -105,34 +105,34 @@ function App() {
       {/* <!-- skills section end --> */}
       {/* <!-- about  --> */}
       <section>
-        <div class="section-center clearfix">
+        <div className="section-center clearfix">
           {/* <!-- about img --> */}
-          <article class="about-img">
-            <div class="about-picture-container">
+          <article className="about-img">
+            <div className="about-picture-container">
               <img
                 src="./images/about-bcg.jpeg"
                 alt="tea kettle"
-                class="about-picture"
+                className="about-picture"
               />
             </div>
           </article>
           {/* <!-- about info --> */}
-          <article class="about-info">
+          <article className="about-info">
             {/* <!-- section title --> */}
-            <div class="section-title">
+            <div className="section-title">
               <h3>about our</h3>
               <h2>tea station</h2>
             </div>
             {/* <!-- section title end --> */}
-            <p class="about-text">
+            <p className="about-text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
               quisquam rerum maiores sequi esse temporibus!
             </p>
-            <p class="about-text">
+            <p className="about-text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
               quisquam rerum maiores sequi esse temporibus!
             </p>
-            <a href="about.hmtl" class="btn">
+            <a href="about.hmtl" className="btn">
               learn more
             </a>
           </article>
@@ -140,58 +140,58 @@ function App() {
       </section>
       {/* <!-- about end --> */}
       {/* <!-- products --> */}
-      <section class="products">
-        <div class="section-center clearfix">
+      <section className="products">
+        <div className="section-center clearfix">
           {/* <!-- product info --> */}
-          <article class="product-info">
+          <article className="product-info">
             {/* <!-- section title --> */}
-            <div class="section-title">
+            <div className="section-title">
               <h3>check out</h3>
               <h2>our products</h2>
             </div>
             {/* <!-- section title end --> */}
-            <p class="product-text">
+            <p className="product-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
               nam commodi est, maiores dolore tempore iusto, adipisci animi quo
               amet aspernatur dolores laudantium! Amet, quam!
             </p>
-            <a href="products.html" class="btn">
+            <a href="products.html" className="btn">
               inventory
             </a>
           </article>
           {/* <!-- product inventory --> */}
-          <article class="product-inventory clearfix">
+          <article className="product-inventory clearfix">
             {/* <!-- single product --> */}
-            <div class="product">
+            <div className="product">
               <img
                 src="./images/product-1.jpeg"
                 alt="single product"
-                class="product-img"
+                className="product-img"
               />
-              <h4 class="product-title">ginger peach tea</h4>
-              <h4 class="product-price">$6.99</h4>
+              <h4 className="product-title">ginger peach tea</h4>
+              <h4 className="product-price">$6.99</h4>
             </div>
             {/* <!-- single product end --> */}
             {/* <!-- single product --> */}
-            <div class="product">
+            <div className="product">
               <img
                 src="./images/product-2.jpeg"
                 alt="single product"
-                class="product-img"
+                className="product-img"
               />
-              <h4 class="product-title">white tea</h4>
-              <h4 class="product-price">$6.99</h4>
+              <h4 className="product-title">white tea</h4>
+              <h4 className="product-price">$6.99</h4>
             </div>
             {/* <!-- single product end --> */}
             {/* <!-- single product --> */}
-            <div class="product">
+            <div className="product">
               <img
                 src="./images/product-3.jpeg"
                 alt="single product"
-                class="product-img"
+                className="product-img"
               />
-              <h4 class="product-title">fruit sangria</h4>
-              <h4 class="product-price">$6.99</h4>
+              <h4 className="product-title">fruit sangria</h4>
+              <h4 className="product-price">$6.99</h4>
             </div>
             {/* <!-- single product end --> */}
           </article>
@@ -199,95 +199,95 @@ function App() {
       </section>
       {/* <!-- products ends --> */}
       {/* <!-- services --> */}
-      <section class="services" id="services">
+      <section className="services" id="services">
         {/* <!-- section title --> */}
-        <div class="section-title services-title">
+        <div className="section-title services-title">
           <h3>explore</h3>
           <h2>our services</h2>
         </div>
-        <div class="section-center clearfix">
+        <div className="section-center clearfix">
           {/* <!-- card --> */}
-          <article class="service-card">
+          <article className="service-card">
             {/* <!-- img container --> */}
-            <div class="service-img-container">
+            <div className="service-img-container">
               {/* <!-- img --> */}
               <img
                 src="./images/product-1.jpeg"
                 alt="single service"
-                class="service-img"
+                className="service-img"
               />
               {/* <!-- service icon --> */}
-              <span class="service-icon">
-                <i class="fas fa-mortar-pestle fa-fw"></i>
+              <span className="service-icon">
+                <i className="fas fa-mortar-pestle fa-fw"></i>
               </span>
             </div>
             {/* <!-- service info --> */}
-            <div class="service-info">
+            <div className="service-info">
               <h4>custom recipes</h4>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Incidunt necessitatibus architecto ullam recusandae distinctio
                 reprehenderit.
               </p>
-              <a href="products.html" class="btn service-btn">
+              <a href="products.html" className="btn service-btn">
                 read more
               </a>
             </div>
           </article>
           {/* <!-- card end --> */}
           {/* <!-- card --> */}
-          <article class="service-card">
+          <article className="service-card">
             {/* <!-- img container --> */}
-            <div class="service-img-container">
+            <div className="service-img-container">
               {/* <!-- img --> */}
               <img
                 src="./images/product-2.jpeg"
                 alt="single service"
-                class="service-img"
+                className="service-img"
               />
               {/* <!-- service icon --> */}
-              <span class="service-icon">
-                <i class="fas fa-home fa-fw"></i>
+              <span className="service-icon">
+                <i className="fas fa-home fa-fw"></i>
               </span>
             </div>
             {/* <!-- service info --> */}
-            <div class="service-info">
+            <div className="service-info">
               <h4>home delivery</h4>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Incidunt necessitatibus architecto ullam recusandae distinctio
                 reprehenderit.
               </p>
-              <a href="products.html" class="btn service-btn">
+              <a href="products.html" className="btn service-btn">
                 read more
               </a>
             </div>
           </article>
           {/* <!-- card end --> */}
           {/* <!-- card --> */}
-          <article class="service-card">
+          <article className="service-card">
             {/* <!-- img container --> */}
-            <div class="service-img-container">
+            <div className="service-img-container">
               {/* <!-- img --> */}
               <img
                 src="./images/product-3.jpeg"
                 alt="single service"
-                class="service-img"
+                className="service-img"
               />
               {/* <!-- service icon --> */}
-              <span class="service-icon">
-                <i class="fas fa-mug-hot fa-fw"></i>
+              <span className="service-icon">
+                <i className="fas fa-mug-hot fa-fw"></i>
               </span>
             </div>
             {/* <!-- service info --> */}
-            <div class="service-info">
+            <div className="service-info">
               <h4>tea aging</h4>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Incidunt necessitatibus architecto ullam recusandae distinctio
                 reprehenderit.
               </p>
-              <a href="products.html" class="btn service-btn">
+              <a href="products.html" className="btn service-btn">
                 read more
               </a>
             </div>
@@ -298,74 +298,74 @@ function App() {
       </section>
       {/* <!-- services end --> */}
       {/* <!-- contact  --> */}
-      <section class="contact">
-        <div class="section-center clearfix">
+      <section className="contact">
+        <div className="section-center clearfix">
           {/* <!-- contact info --> */}
-          <article class="contact-info">
+          <article className="contact-info">
             {/* <!-- contact item --> */}
-            <div class="contact-item">
-              <h4 class="contact-title">
-                <span class="contact-icon">
-                  <i class="fas fa-location-arrow"></i>
+            <div className="contact-item">
+              <h4 className="contact-title">
+                <span className="contact-icon">
+                  <i className="fas fa-location-arrow"></i>
                 </span>
                 address
               </h4>
-              <h4 class="contact-text">
+              <h4 className="contact-text">
                 123 North Pole <br />
                 EarthOne, 00001
               </h4>
             </div>
             {/* <!-- contact item end --> */}
             {/* <!-- contact item --> */}
-            <div class="contact-item">
-              <h4 class="contact-title">
-                <span class="contact-icon">
-                  <i class="fas fa-envelope"></i>
+            <div className="contact-item">
+              <h4 className="contact-title">
+                <span className="contact-icon">
+                  <i className="fas fa-envelope"></i>
                 </span>
                 email
               </h4>
-              <h4 class="contact-text">email@email.com</h4>
+              <h4 className="contact-text">email@email.com</h4>
             </div>
             {/* <!-- contact item end --> */}
             {/* <!-- contact item --> */}
-            <div class="contact-item">
-              <h4 class="contact-title">
-                <span class="contact-icon">
-                  <i class="fas fa-phone"></i>
+            <div className="contact-item">
+              <h4 className="contact-title">
+                <span className="contact-icon">
+                  <i className="fas fa-phone"></i>
                 </span>
                 telephone
               </h4>
-              <h4 class="contact-text">+123456789</h4>
+              <h4 className="contact-text">+123456789</h4>
             </div>
             {/* <!-- contact item end --> */}
           </article>
           {/* <!-- contact form --> */}
-          <article class="contact-form">
+          <article className="contact-form">
             <h3>contact us</h3>
             <form action="https://formspree.io/f/xvonvoky" method="POST">
-              <div class="form-group">
+              <div className="form-group">
                 {/* <!-- inputs --> */}
                 <input
                   type="text"
                   name="name"
                   placeholder=" enter name"
-                  class="form-control"
+                  className="form-control"
                 />
                 <input
                   type="email"
                   name="email"
                   placeholder=" enter email"
-                  class="form-control"
+                  className="form-control"
                 />
                 <textarea
                   name="message"
                   placeholder="message"
-                  class="form-control"
+                  className="form-control"
                   rows="5"
                 ></textarea>
               </div>
               {/* <!-- button --> */}
-              <button type="submit" class="submit-btn btn">
+              <button type="submit" className="submit-btn btn">
                 submit here
               </button>
             </form>
@@ -374,35 +374,34 @@ function App() {
       </section>
       {/* <!-- contact end --> */}
       {/* <!-- footer --> */}
-      <footer class="footer">
-        <div class="section-center">
-          <div class="social-icons">
+      <footer className="footer">
+        <div className="section-center">
+          <div className="social-icons">
             {/* <!-- social icon --> */}
-            <a href="#" class="social-icon">
+            <a href="#" className="social-icon">
               {' '}
-              <i class="fab fa-facebook"></i>
+              <i className="fab fa-facebook"></i>
             </a>
             {/* <!-- social icon end --> */}
             {/* <!-- social icon --> */}
-            <a href="#" class="social-icon">
+            <a href="#" className="social-icon">
               {' '}
-              <i class="fab fa-twitter"></i>
+              <i className="fab fa-twitter"></i>
             </a>
             {/* <!-- social icon end --> */}
             {/* <!-- social icon --> */}
-            <a href="#" class="social-icon">
+            <a href="#" className="social-icon">
               {' '}
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
             {/* <!-- social icon end --> */}
           </div>
-          <h4 class="footer-text">
+          <h4 className="footer-text">
             &copy; <span>2023 </span>
-            <span class="company">tea station</span> all rights reserved
+            <span className="company">tea station</span> all rights reserved
           </h4>
         </div>
       </footer>
-      <script src="app.js"></script>
     </>
   );
 }
