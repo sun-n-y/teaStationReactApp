@@ -11,10 +11,5 @@
 - ### array map method
 - ### destructing objects
 - ### import local data
-- ###
-- ###
-- ###
-- ###
-- ###
 
 [Back to Top](#custom_anchor_name)
