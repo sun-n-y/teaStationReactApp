@@ -4,6 +4,17 @@
 
 ## Concepts applied but not limited too
 
+- ### remove boiler plate
+- ### add components
+- ###
+- ###
+- ###
+- ###
+- ###
+- ###
+- ###
+- ###
+- ###
 - ###
 
 [Back to Top](#custom_anchor_name)
