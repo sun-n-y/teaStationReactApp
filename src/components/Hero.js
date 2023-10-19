@@ -1,7 +1,6 @@
 const Hero = () => {
   return (
     <>
-      {/* <!-- header --> */}
       <header className="header">
         <div className="banner">
           <h2>Over one hundred flavors of</h2>
@@ -14,7 +13,6 @@ const Hero = () => {
           </a>
         </div>
       </header>
-      {/* <!-- header end --> */}
     </>
   );
 };

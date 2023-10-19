@@ -3,12 +3,9 @@ import { pageLinks } from '../data';
 const Navbar = () => {
   return (
     <>
-      {/* <!-- nav --> */}
-      {/* <!-- nav button --> */}
       <span className="nav-btn">
         <i className="fas fa-bars showNav" id="nav-btn"></i>
       </span>
-      {/* <!-- nav bar --> */}
       <nav className="navbar" id="navbar">
         <div className="navbar-header">
           <span className="nav-close" id="nav-close">
