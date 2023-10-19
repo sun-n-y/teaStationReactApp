@@ -4,13 +4,13 @@
 
 ## Concepts applied but not limited too
 
+- ### convert project to react
 - ### remove boiler plate
 - ### add components
-- ###
-- ###
-- ###
-- ###
-- ###
+- ### refactor components
+- ### array map method
+- ### destructing objects
+- ### import local data
 - ###
 - ###
 - ###

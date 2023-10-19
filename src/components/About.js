@@ -1,3 +1,5 @@
+import aboutImg from '../images/about-bcg.jpeg';
+
 const About = () => {
   return (
     <div>
@@ -8,11 +10,7 @@ const About = () => {
           {/* <!-- about img --> */}
           <article className="about-img">
             <div className="about-picture-container">
-              <img
-                src="./images/about-bcg.jpeg"
-                alt="tea kettle"
-                className="about-picture"
-              />
+              <img src={aboutImg} alt="tea kettle" className="about-picture" />
             </div>
           </article>
           {/* <!-- about info --> */}
