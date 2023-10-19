@@ -7,19 +7,19 @@ const Footer = () => {
         <div className="section-center">
           <div className="social-icons">
             {/* <!-- social icon --> */}
-            <a href="#" className="social-icon">
+            <a href="www.twitter.com" className="social-icon">
               {' '}
               <i className="fab fa-facebook"></i>
             </a>
             {/* <!-- social icon end --> */}
             {/* <!-- social icon --> */}
-            <a href="#" className="social-icon">
+            <a href="www.twitter.com" className="social-icon">
               {' '}
               <i className="fab fa-twitter"></i>
             </a>
             {/* <!-- social icon end --> */}
             {/* <!-- social icon --> */}
-            <a href="#" className="social-icon">
+            <a href="www.twitter.com" className="social-icon">
               {' '}
               <i className="fab fa-instagram"></i>
             </a>
